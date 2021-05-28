@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\application;..\peripheral_driver\inc;..\source;..\ucosiii\uc-bsp;..\ucosiii\uc-config;..\ucosiii\uc-cpu;..\ucosiii\uc-cpu\ARM-Cortex-M3\RealView;..\ucosiii\uc-lib;..\ucosiii\uc-lib\Ports\ARM-Cortex-M3\RealView;..\ucosiii\uc-ucosiii\Source;..\ucosiii\uc-ucosiii\Ports\ARM-Cortex-M3\Generic\RealView</IncludePath>
+              <IncludePath>..\application;..\peripheral_driver\inc;..\source;..\ucosiii\uc-bsp;..\ucosiii\uc-config;..\ucosiii\uc-cpu;..\ucosiii\uc-cpu\ARM-Cortex-M3\RealView;..\ucosiii\uc-lib;..\ucosiii\uc-lib\Ports\ARM-Cortex-M3\RealView;..\ucosiii\uc-ucosiii\Source;..\ucosiii\uc-ucosiii\Ports\ARM-Cortex-M3\Generic\RealView;..\source</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -536,6 +536,58 @@
         </Group>
         <Group>
           <GroupName>source</GroupName>
+          <Files>
+            <File>
+              <FileName>gpio_deinit.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\gpio_deinit.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\oled_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart_log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\usart_log.c</FilePath>
+            </File>
+            <File>
+              <FileName>time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\time.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>standby_mode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\standby_mode.c</FilePath>
+            </File>
+            <File>
+              <FileName>standby_wake.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\standby_wake.c</FilePath>
+            </File>
+            <File>
+              <FileName>exception_management_iwdg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\exception_management_iwdg.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\flash.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uc-bsp</GroupName>
